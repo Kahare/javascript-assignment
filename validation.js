@@ -24,7 +24,7 @@ function isStrongPassword(password, commonWords = []) {
   
   // Example usage:
   const commonWords = ['password', '123456', 'qwerty', 'admin', 'letmein'];
-  const password = 'Test1234';
+  const password = 'Antare@2024';
   
   if (isStrongPassword(password, commonWords)) {
     console.log('The password is strong.');
