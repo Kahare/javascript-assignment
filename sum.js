@@ -8,5 +8,6 @@ const calculateTotalCost = (cart) => {
   return totalCost;
 };
 
+
 const total = calculateTotalCost(shoppingCart);
 console.log(`Sum is: $${total.toFixed(2)}`);
